@@ -1,2 +1,2 @@
 # M2EU
-It is a meta-learning-based algorithm for cold-start recommendation.
+This is the code for the SIGIR 2023 Paper: M2EU: Meta Learning for Cold-start Recommendation via Enhancing User Preference Estimation.
