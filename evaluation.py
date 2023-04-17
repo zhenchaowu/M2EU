@@ -89,9 +89,6 @@ def generate_test_data(config, state_type):
         path = "data/movielens"
         user_dict_path = '{}/user_property_tensor.pkl'.format(path)
         item_dict_path = '{}/movie_property_tensor.pkl'.format(path)
-    
-        test_support_set_path = '{}/{}.pkl'.format(path, test_support_set_name)
-        test_query_set_path = '{}/{}.pkl'.format(path, test_query_set_name)
          
         user_dict_df = read_pkl(user_dict_path)
         userID_list = list(user_dict_df['user_id'])
